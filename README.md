@@ -1,4 +1,8 @@
-# TrafficTelligence
+# TrafficTelligence 🚦
+**Advanced Traffic Volume Estimation using Machine Learning**
+
+TrafficTelligence is a smart traffic analysis system that uses machine learning models to estimate and predict traffic volume based on historical data, weather, time, and other variables. This project demonstrates a complete pipeline from data preprocessing to prediction and visualization.
+
 📌 Live Demo & Output Screens
 ✅ 1. Input Page – index.html
 
@@ -17,6 +21,38 @@ The model takes these features and estimates traffic volume accordingly.
 After processing, the predicted traffic volume is displayed beautifully.
 Predicted Value: 1570.81 units
 ![image](https://github.com/user-attachments/assets/bd09b0e0-dfe4-42e0-9cfa-06fb30c88ab6)
+
+---
+
+## 🔍 Features
+- Traffic data preprocessing and feature extraction
+- Regression-based ML model training
+- Prediction of future traffic volumes
+- Flask-based web application
+- Visualization of traffic trends and predictions
+
+---
+
+## 🧠 Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn (ML)
+- Matplotlib / Seaborn
+- Flask (Web Framework)
+- HTML, CSS (Frontend)
+
+---
+
+## 📁 Folder Structure
+├── traffic volume.csv # Dataset
+├── traffic_volume.ipynb # Jupyter notebook for ML
+├── requirements.doc #requirements
+├── Flask/
+  ├── model.pkl # Trained ML model
+  ├── app.py # Flask backend
+  ├──templates/
+   ├── index.html
+   └── output.html
 
 🚀 How to Run Locally
 
